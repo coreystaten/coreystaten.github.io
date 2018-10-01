@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.footer-heading {
+    display: none;
+}
+
+.footer-col-3 {
+    visibility: hidden;
+}
