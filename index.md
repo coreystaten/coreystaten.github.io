@@ -7,7 +7,15 @@ layout: home
 
 I am a programmer/mathematician from Columbus, Ohio.  I received my PhD in Mathematics from The Ohio State University in August of 2018; my thesis and accompanying code are available [here](https://github.com/coreystaten/CatComputad).
 
-I recently finished a grant from [the Machine Intelligence Research Institute](https://intelligence.org/) to get up to speed with deep reinforcement learning.  You can view some of my implementations of Deep RL algorithms [here](https://github.com/coreystaten/deeprl-rainbow) and [here](https://github.com/coreystaten/deeprl-ppo).
+I recently finished a grant from [the Machine Intelligence Research Institute](https://intelligence.org/) to get up to speed with deep reinforcement learning.  Here are some of the of algorithms I implemented:
+
+[**Rainbow: deep Q-network variants**](https://github.com/coreystaten/deeprl-rainbow)
+
+[![Rainbow performance graph for Pong](/assets/rainbow.png)](https://github.com/coreystaten/deeprl-rainbow)
+
+[**Proximal policy optimization**](https://github.com/coreystaten/deeprl-ppo)
+
+[![PPO performance graph for Pong w/8 actors](/assets/ppo.png)](https://github.com/coreystaten/deeprl-ppo)
 
 I'm currently looking for work in AI safety engineering or related areas; my resume is [here](/assets/corey-staten-resume.pdf) (updated 2018-10-01).
 
