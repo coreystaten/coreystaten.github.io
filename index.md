@@ -17,7 +17,7 @@ I recently finished a grant from [the Machine Intelligence Research Institute](h
 
 [![PPO performance graph for Pong w/8 actors](/assets/ppo.png)](https://github.com/coreystaten/deeprl-ppo)
 
-I'm currently looking for work in AI safety engineering or related areas; my resume is [here](/assets/corey-staten-resume.pdf) (updated 2018-10-01).
+I'm currently looking for work; my resume is [here](/assets/corey-staten-resume.pdf) (updated 2018-10-01).
 
 {% comment %}
 Reinforcement learning algorithms have a reputation for being finicky to implement and debug; I wrote some notes on the problems I encountered while implementing PPO which you can view here.
