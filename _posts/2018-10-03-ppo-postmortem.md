@@ -20,10 +20,11 @@ Before I'd written any reinforcement learning code, I heard from several sources
     * Stacking observations into a (4, 84, 84) tensor instead of an (84, 84, 4) tensor, causing initial convnet layers to interpret it as a 4x84 image with 84 color channels.  I did not think this was possible since one of the convolutional layers had kernel size bigger than 4, but apparently this does not raise an exception.
 
 My debugging process was something like:
-* Look at intermediate values in the computation graph during training, and see if they are the wrong shape or have unexpected/weird values.
-* Make edits in areas that you feel confused about, and see how performance or intermediate values respond.
-* Stare at code and think, re-read related papers.
-* When really stuck, compare with other implementations.
+* Looking at intermediate values in the computation graph during training, and seeing if they were the wrong shape or had unexpected/weird values.
+* Making edits in areas that I felt confused about, and seeing how performance or intermediate values respond.
+* Staring at code and thinking
+* Re-reading the original paper and related papers.
+* When really stuck, comparing with other implementations.
 
-Overall take: this was my first "from scratch" RL implementation, and there's a ton of low-level experiential knowledge I feel like I gained from it.  My next implementation (Rainbow) went much more smoothly, despite being twice as many lines of code. 
+Overall take: this was my first "from scratch" RL implementation, and there's a ton of low-level experiential knowledge I feel like I gained from building it.  My next implementation (Rainbow) went much more smoothly, despite being twice as many lines of code.
 
