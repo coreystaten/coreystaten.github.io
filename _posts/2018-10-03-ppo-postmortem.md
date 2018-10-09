@@ -20,11 +20,11 @@ Before I'd written any reinforcement learning code, I heard from several sources
     * Stacking observations into a (4, 84, 84) tensor instead of an (84, 84, 4) tensor, causing convolutional network layers to interpret it as a 4x84 image with 84 color channels.
 
 My debugging process was something like:
-* Looking at intermediate values in the computation graph during training, and seeing if they were the wrong shape or had unexpected/weird values.
-* Making edits in areas that I felt confused about, and seeing how performance or intermediate values respond.
+* Looking at nodes in the computation graph during training, and seeing if they were the wrong shape or had unexpected/weird values.
+* Making edits in areas that I felt confused about, and seeing how values changed during training.
 * Staring at code and thinking.
-* Re-reading the original paper and related papers.
+* Re-reading the original PPO papers, as well as related papers.
 * When really stuck, comparing with other implementations.
 
-This was my first "from scratch" RL implementation, and there's a ton of low-level experiential knowledge I feel like I gained from building it.  My next implementation ([Rainbow](https://github.com/coreystaten/deeprl-ppo)) went much more smoothly, despite being twice as many lines of code.
+This was my first "from scratch" reinforcement learning implementation, and there's a ton of low-level experiential knowledge I feel like I gained from building it.  My next implementation ([Rainbow](https://github.com/coreystaten/deeprl-rainbow)) went much more smoothly, despite being twice as many lines of code.
 
