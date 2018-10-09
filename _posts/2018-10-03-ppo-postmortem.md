@@ -26,5 +26,5 @@ My debugging process was something like:
 * Re-reading the original PPO papers, as well as related papers.
 * When really stuck, comparing with other implementations.
 
-This was my first "from scratch" reinforcement learning implementation, and there's a ton of low-level experiential knowledge I feel like I gained from building it.  My next implementation ([Rainbow](https://github.com/coreystaten/deeprl-ppo)) went much more smoothly, despite being twice as many lines of code.
+This was my first "from scratch" reinforcement learning implementation, and there's a ton of low-level experiential knowledge I feel like I gained from building it.  My next implementation ([Rainbow](https://github.com/coreystaten/deeprl-rainbow)) went much more smoothly, despite being twice as many lines of code.
 
