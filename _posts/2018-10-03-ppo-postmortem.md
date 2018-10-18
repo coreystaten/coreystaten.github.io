@@ -7,7 +7,7 @@ Before I'd written any reinforcement learning code, I heard from several sources
 * Deterministically choosing the next action to take (by taking a max over the policy network outputs), instead of treating those outputs as a distribution and sampling accordingly.
 * Forgetting to implement checkpointing until several hours into a run which I wanted to pause and resume.
 * Appending an observation to the replay buffer before checking whether the environment needed to be reset -- this caused the last observation of the previous episode to be recorded as the first observation of the new episode.
-* Using a the wrong value estimate for training (1-step backup from the value estimator network, instead of the empirical return over the update horizon).
+* Using the wrong value estimate for training (1-step backup from the value estimator network, instead of the empirical return over the update horizon).
 * Normalizing advantages per agent, instead of per batch -- there were 8 agents contributing to each batch.
 * Forgetting to add axis=1 to a reduce_sum, causing the whole batch to be summed to a scalar.  This went unnoticed for a while since a scalar still fit into the broadcasting rules, giving an appropriately shaped output.
 * Not negating a term in the loss function -- I had double-checked this with the PPO paper, but had not noticed that the paper was maximizing the value instead of minimizing it like I was.
