@@ -7,7 +7,7 @@ layout: home
 
 I am a programmer/mathematician from Columbus, Ohio.  I received my PhD in Mathematics from The Ohio State University in August of 2018; my thesis and accompanying code are available [here](https://github.com/coreystaten/CatComputad).
 
-I'm currently looking for work; my resume is [here](/assets/corey-staten-resume.pdf) (updated 2018-10-09).
+I'm currently looking for work; my resume is [here](/assets/corey-staten-resume.pdf) (updated 2019-01-04).
 
 I recently finished a grant from [the Machine Intelligence Research Institute](https://intelligence.org/) to get up to speed with deep reinforcement learning.  Here are some of the of algorithms I implemented:
 
