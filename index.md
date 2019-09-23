@@ -23,3 +23,6 @@ I recently finished a grant from [the Machine Intelligence Research Institute](h
 {% comment %}
 Reinforcement learning algorithms have a reputation for being finicky to implement and debug; I wrote some notes on the problems I encountered while implementing PPO which you can view here.
 {% endcomment %}
+
+
+
