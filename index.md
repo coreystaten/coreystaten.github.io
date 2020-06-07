@@ -7,9 +7,9 @@ layout: home
 
 I am a programmer/mathematician from Columbus, Ohio.  I received my PhD in Mathematics from The Ohio State University in August of 2018; my thesis and accompanying code are available [here](https://github.com/coreystaten/CatComputad).
 
-I'm currently looking for work; my resume is [here](/assets/corey-staten-resume.pdf) (updated 2019-01-04).
+I'm currently a Senior Machine Learning Engineer at Sixgill LLC.  You can check out my LinkedIn [here](https://www.linkedin.com/in/corey-staten-a79b39175/) (updated 2020-06-06).
 
-I recently finished a grant from [the Machine Intelligence Research Institute](https://intelligence.org/) to get up to speed with deep reinforcement learning.  Here are some of the of algorithms I implemented:
+In Summer of 2018, I received a grant from [the Machine Intelligence Research Institute](https://intelligence.org/) to get up to speed with deep reinforcement learning.  Here are some of the of algorithms I implemented:
 
 [**Rainbow: deep Q-network variants**](https://github.com/coreystaten/deeprl-rainbow)
 
@@ -18,11 +18,5 @@ I recently finished a grant from [the Machine Intelligence Research Institute](h
 [**Proximal policy optimization**](https://github.com/coreystaten/deeprl-ppo)
 
 [![PPO performance graph for Pong w/8 actors](/assets/ppo.png)](https://github.com/coreystaten/deeprl-ppo)
-
-
-{% comment %}
-Reinforcement learning algorithms have a reputation for being finicky to implement and debug; I wrote some notes on the problems I encountered while implementing PPO which you can view here.
-{% endcomment %}
-
 
 
